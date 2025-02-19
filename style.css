@@ -204,9 +204,20 @@ section {
         font-size: 70%;
     }
 
-    .icons {
-        display: none;
-    }
+   .icons {
+    display: flex; /* O block si quieres que se muestren uno debajo del otro */
+    flex-direction: initial; /* Para que los iconos se apilen verticalmente */
+    align-items: center; /* Para centrar los iconos horizontalmente */
+    position: relative; /* Para que los iconos se posicionen correctamente */
+    top: 0; /* Ajusta la posición vertical según necesites */
+    transform: translateY(0); /* Elimina la transformación que los ocultaba */
+    padding: 20px; /* Ajusta el padding según necesites */
+
+}
+
+.icons a {
+    margin: 10px 0 0 150px ; /* Ajusta el margen entre iconos según necesites */
+}
 
     .scroll-down {
         display: none;
