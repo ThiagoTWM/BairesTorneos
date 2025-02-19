@@ -209,7 +209,7 @@ section {
   }
  }
 
- @media ( max-width: 771px) {
+@media ( max-width: 768px) {
   .menu-icon-action {
     display: block;
   }
@@ -220,9 +220,17 @@ section {
   .hero-text {
     text-align: center;
     padding-top: 100px;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
 
   }
-
+ 
+  .hero-text a {
+    margin: 10px 0; /* Asegura espaciado entre botones */
+    width: 80%; /* Opcional: que sean más grandes en móvil */
+    text-align: center;
+}
   .hero-img img {
     margin: 0;
 
