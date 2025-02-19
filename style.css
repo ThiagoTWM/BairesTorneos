@@ -231,8 +231,14 @@ section {
     width: 80%; /* Opcional: que sean más grandes en móvil */
     text-align: center;
 }
+    .hero-text a.videos {
+        margin-left: 0;
+    }
+    
   .hero-img img {
     margin: 0;
+   width: 250px;
+    height: 250px;
 
   }
   .hero {
