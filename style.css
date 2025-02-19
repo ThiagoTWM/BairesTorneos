@@ -237,8 +237,8 @@ section {
     }
 
     .hero-img img {
-        width: 250px;
-        height: 200px;
+        width: 350px;
+        height: 300px;
         margin: 0;
         transition: none; /* Sin transición en pantallas pequeñas */
     }
