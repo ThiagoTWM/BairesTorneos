@@ -216,7 +216,7 @@ section {
 }
 
 .icons a {
-    margin: 10px 0 0 150px ; /* Ajusta el margen entre iconos según necesites */
+    margin: 10px 0 0 10px ; /* Ajusta el margen entre iconos según necesites */
 }
 
     .scroll-down {
